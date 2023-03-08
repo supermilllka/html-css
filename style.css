@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(35, 216, 216); /*общий фон*/
+    }
+
+h1 {
+    color: rgb(133, 15, 243); /*цвет букв*/
+}
+h2 {
+    color: rgba(101, 8, 240, 0.834);
+}
+a {
+    color: #e50b0b;
+}
+img {
+    margin-left: 50px; /*подвинуть картинку влево*/
+}
+.big_size { /*размер рисунка, указываем класс рисунка*/
+    width: 500px;
+}
+.small_size {
+    width: 400px;
+}
+
+h3 {
+    font-family: 'Teddy Bear', sans-serif; /* прописываем язык, если его нет используем стандартный*/
+    font-size: 2rem; /*размер символов*/
+}
+ul {
+    list-style-type: square;
+}
+@font-face { /*скачиваем язык на сайте (скачать для сайта), копируем в папку, где рабочий файл. Из скаченного файла копируем текст*/
+	font-family: 'Teddy Bear';
+	src: url('fonts/teddy_bear.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/teddy_bear.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/teddy_bear.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/teddy_bear.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/teddy_bear.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/teddy_bear.svg#teddy_bear') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+.content { /*положение информации на странице*/
+    max-width: 900px;
+    margin: auto;
+}
